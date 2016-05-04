@@ -4,9 +4,6 @@
 Implementation of a simple fixed-size segment tree data structure to compute range sums.
 """
 
-import sys
-import operator
-
 #Helper functions for array implementation of binary trees
 def _parent(x):
 	return x // 2
