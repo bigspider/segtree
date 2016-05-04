@@ -1,6 +1,8 @@
 # segtree
 A simple implementation of a fixed-length segment tree for range sums. See for example http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/.
 
+NOTE: the name "segment tree" is used in literature for different structures used in computational geometry. Here we refer to a data structure that provides random access to an array, augmented with efficient range queries.
+
 The SumSegmentTree class stores an array A of size n, providing access with three methods:
 
 - get(i): returns the element at index i
